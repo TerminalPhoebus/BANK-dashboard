@@ -1,0 +1,78 @@
+{
+  "_args": [
+    [
+      "redux-soldier@1.2.3",
+      "/Users/qlyu/Documents/GitHub/MathGPT"
+    ]
+  ],
+  "_from": "redux-soldier@^1.2.3",
+  "_id": "redux-soldier@1.2.3",
+  "_inBundle": false,
+  "_integrity": "sha512-v9JmStXpPHKKeJJuFKqXb3X/k3i+WUpLRfl39Kp1ywuFYVAgk+KUL3dDmgwffozWT/bt7zmn/i3TBwiQt1pQKA==",
+  "_location": "/redux-soldier",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "redux-soldier@^1.2.3",
+    "name": "redux-soldier",
+    "escapedName": "redux-soldier",
+    "rawSpec": "^1.2.3",
+    "saveSpec": null,
+    "fetchSpec": "^1.2.3"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/redux-soldier/-/redux-soldier-1.2.3.tgz",
+  "_shasum": "00d8040fb40edf7b2523bba4c5d04c7c7cee9fcc",
+  "_spec": "redux-soldier@^1.2.3",
+  "_where": "/Users/qlyu/Documents/GitHub/MathGPT",
+  "author": {
+    "name": "Gherciu Gheorghe",
+    "email": "gherciu553@gmail.com",
+    "url": "https://gherciu.github.io/"
+  },
+  "bugs": {
+    "url": "https://github.com/Gherciu/redux-soldier/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "redux-soldier-utils": "^1.0.8"
+  },
+  "deprecated": false,
+  "description": "👨🏼‍✈️ redux-soldier is a redux middleware that can handle 'dispatch method' arguments in a smart way",
+  "devDependencies": {
+    "cross-env": "^5.2.1",
+    "redux": "^4.0.5",
+    "rimraf": "^2.6.3",
+    "ts-loader": "^6.1.0",
+    "typescript": "^3.6.3",
+    "webpack": "^4.40.2",
+    "webpack-cli": "^3.3.8"
+  },
+  "gitHead": "08f387dd2a79abb90a42fcbe7ba1c8a6c6daba3e",
+  "homepage": "https://github.com/Gherciu/redux-soldier#readme",
+  "keywords": [
+    "redux",
+    "redux-middleware",
+    "redux-soldier",
+    "multiple-actions"
+  ],
+  "license": "MIT",
+  "main": "./build/index.js",
+  "name": "redux-soldier",
+  "peerDependencies": {
+    "redux": "^4.0.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gherciu/redux-soldier.git"
+  },
+  "scripts": {
+    "build": "rimraf ./build && cross-env NODE_ENV=production webpack",
+    "watch": "cross-env NODE_ENV=development webpack -w"
+  },
+  "types": "./@types",
+  "version": "1.2.3"
+}

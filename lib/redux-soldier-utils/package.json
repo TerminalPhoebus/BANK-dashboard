@@ -1,0 +1,72 @@
+{
+  "_args": [
+    [
+      "redux-soldier-utils@1.0.8",
+      "/Users/qlyu/Documents/GitHub/MathGPT"
+    ]
+  ],
+  "_from": "redux-soldier-utils@^1.0.8",
+  "_id": "redux-soldier-utils@1.0.8",
+  "_inBundle": false,
+  "_integrity": "sha512-QFtnwacBRUoFCAtPJdH205/tkHuHzeb+nKEifEVmcXX9RK0wMeYpFSWt6SVY64wQmQPUr9oqW9z1dwwFDiEtrQ==",
+  "_location": "/redux-soldier-utils",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "redux-soldier-utils@^1.0.8",
+    "name": "redux-soldier-utils",
+    "escapedName": "redux-soldier-utils",
+    "rawSpec": "^1.0.8",
+    "saveSpec": null,
+    "fetchSpec": "^1.0.8"
+  },
+  "_requiredBy": [
+    "/redux-soldier"
+  ],
+  "_resolved": "https://registry.npmjs.org/redux-soldier-utils/-/redux-soldier-utils-1.0.8.tgz",
+  "_shasum": "138bedd2aab0de0057e3c1f2a15916a322231994",
+  "_spec": "redux-soldier-utils@^1.0.8",
+  "_where": "/Users/qlyu/Documents/GitHub/MathGPT/node_modules/redux-soldier",
+  "author": {
+    "name": "Gherciu Gheorghe",
+    "email": "gherciu553@gmail.com",
+    "url": "https://gherciu.github.io/"
+  },
+  "bugs": {
+    "url": "https://github.com/Gherciu/redux-soldier/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "A set of utils for redux-soldier package.",
+  "devDependencies": {
+    "cross-env": "^5.2.1",
+    "rimraf": "^2.6.3",
+    "ts-loader": "^6.1.0",
+    "typescript": "^3.6.3",
+    "webpack": "^4.40.2",
+    "webpack-cli": "^3.3.8"
+  },
+  "gitHead": "08f387dd2a79abb90a42fcbe7ba1c8a6c6daba3e",
+  "homepage": "https://github.com/Gherciu/redux-soldier#readme",
+  "keywords": [
+    "redux",
+    "redux-middleware",
+    "redux-soldier",
+    "redux-soldier-utils",
+    "multiple-actions"
+  ],
+  "license": "MIT",
+  "main": "./build/index.js",
+  "name": "redux-soldier-utils",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gherciu/redux-soldier.git"
+  },
+  "scripts": {
+    "build": "rimraf ./build && cross-env NODE_ENV=production webpack",
+    "watch": "cross-env NODE_ENV=development webpack -w"
+  },
+  "types": "./@types",
+  "version": "1.0.8"
+}
